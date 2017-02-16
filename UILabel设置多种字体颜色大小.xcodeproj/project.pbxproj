@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13547BA61E55423600882164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BA51E55423600882164 /* main.m */; };
+		13547BA91E55423600882164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BA81E55423600882164 /* AppDelegate.m */; };
+		13547BAC1E55423600882164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BAB1E55423600882164 /* ViewController.m */; };
+		13547BAF1E55423600882164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547BAD1E55423600882164 /* Main.storyboard */; };
+		13547BB11E55423600882164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13547BB01E55423600882164 /* Assets.xcassets */; };
+		13547BB41E55423600882164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13547BB21E55423600882164 /* LaunchScreen.storyboard */; };
+		13547BBF1E55423600882164 /* UILabel__________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BBE1E55423600882164 /* UILabel__________Tests.m */; };
+		13547BCA1E55423600882164 /* UILabel__________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13547BC91E55423600882164 /* UILabel__________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13547BBB1E55423600882164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13547B991E55423600882164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13547BA01E55423600882164;
+			remoteInfo = "UILabel设置多种字体颜色大小";
+		};
+		13547BC61E55423600882164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13547B991E55423600882164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13547BA01E55423600882164;
+			remoteInfo = "UILabel设置多种字体颜色大小";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13547BA11E55423600882164 /* UILabel设置多种字体颜色大小.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel设置多种字体颜色大小.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547BA51E55423600882164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13547BA71E55423600882164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13547BA81E55423600882164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13547BAA1E55423600882164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		13547BAB1E55423600882164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		13547BAE1E55423600882164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13547BB01E55423600882164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13547BB31E55423600882164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13547BB51E55423600882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13547BBA1E55423600882164 /* UILabel设置多种字体颜色大小Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel设置多种字体颜色大小Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547BBE1E55423600882164 /* UILabel__________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel__________Tests.m"; sourceTree = "<group>"; };
+		13547BC01E55423600882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13547BC51E55423600882164 /* UILabel设置多种字体颜色大小UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel设置多种字体颜色大小UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13547BC91E55423600882164 /* UILabel__________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel__________UITests.m"; sourceTree = "<group>"; };
+		13547BCB1E55423600882164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13547B9E1E55423600882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BB71E55423600882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BC21E55423600882164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13547B981E55423600882164 = {
+			isa = PBXGroup;
+			children = (
+				13547BA31E55423600882164 /* UILabel设置多种字体颜色大小 */,
+				13547BBD1E55423600882164 /* UILabel设置多种字体颜色大小Tests */,
+				13547BC81E55423600882164 /* UILabel设置多种字体颜色大小UITests */,
+				13547BA21E55423600882164 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13547BA21E55423600882164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13547BA11E55423600882164 /* UILabel设置多种字体颜色大小.app */,
+				13547BBA1E55423600882164 /* UILabel设置多种字体颜色大小Tests.xctest */,
+				13547BC51E55423600882164 /* UILabel设置多种字体颜色大小UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13547BA31E55423600882164 /* UILabel设置多种字体颜色大小 */ = {
+			isa = PBXGroup;
+			children = (
+				13547BA71E55423600882164 /* AppDelegate.h */,
+				13547BA81E55423600882164 /* AppDelegate.m */,
+				13547BAA1E55423600882164 /* ViewController.h */,
+				13547BAB1E55423600882164 /* ViewController.m */,
+				13547BAD1E55423600882164 /* Main.storyboard */,
+				13547BB01E55423600882164 /* Assets.xcassets */,
+				13547BB21E55423600882164 /* LaunchScreen.storyboard */,
+				13547BB51E55423600882164 /* Info.plist */,
+				13547BA41E55423600882164 /* Supporting Files */,
+			);
+			path = "UILabel设置多种字体颜色大小";
+			sourceTree = "<group>";
+		};
+		13547BA41E55423600882164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13547BA51E55423600882164 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13547BBD1E55423600882164 /* UILabel设置多种字体颜色大小Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13547BBE1E55423600882164 /* UILabel__________Tests.m */,
+				13547BC01E55423600882164 /* Info.plist */,
+			);
+			path = "UILabel设置多种字体颜色大小Tests";
+			sourceTree = "<group>";
+		};
+		13547BC81E55423600882164 /* UILabel设置多种字体颜色大小UITests */ = {
+			isa = PBXGroup;
+			children = (
+				13547BC91E55423600882164 /* UILabel__________UITests.m */,
+				13547BCB1E55423600882164 /* Info.plist */,
+			);
+			path = "UILabel设置多种字体颜色大小UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13547BA01E55423600882164 /* UILabel设置多种字体颜色大小 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547BCE1E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小" */;
+			buildPhases = (
+				13547B9D1E55423600882164 /* Sources */,
+				13547B9E1E55423600882164 /* Frameworks */,
+				13547B9F1E55423600882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UILabel设置多种字体颜色大小";
+			productName = "UILabel设置多种字体颜色大小";
+			productReference = 13547BA11E55423600882164 /* UILabel设置多种字体颜色大小.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13547BB91E55423600882164 /* UILabel设置多种字体颜色大小Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547BD11E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小Tests" */;
+			buildPhases = (
+				13547BB61E55423600882164 /* Sources */,
+				13547BB71E55423600882164 /* Frameworks */,
+				13547BB81E55423600882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13547BBC1E55423600882164 /* PBXTargetDependency */,
+			);
+			name = "UILabel设置多种字体颜色大小Tests";
+			productName = "UILabel设置多种字体颜色大小Tests";
+			productReference = 13547BBA1E55423600882164 /* UILabel设置多种字体颜色大小Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13547BC41E55423600882164 /* UILabel设置多种字体颜色大小UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13547BD41E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小UITests" */;
+			buildPhases = (
+				13547BC11E55423600882164 /* Sources */,
+				13547BC21E55423600882164 /* Frameworks */,
+				13547BC31E55423600882164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13547BC71E55423600882164 /* PBXTargetDependency */,
+			);
+			name = "UILabel设置多种字体颜色大小UITests";
+			productName = "UILabel设置多种字体颜色大小UITests";
+			productReference = 13547BC51E55423600882164 /* UILabel设置多种字体颜色大小UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13547B991E55423600882164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Xuetao;
+				TargetAttributes = {
+					13547BA01E55423600882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+					};
+					13547BB91E55423600882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13547BA01E55423600882164;
+					};
+					13547BC41E55423600882164 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PMMD8U2424;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13547BA01E55423600882164;
+					};
+				};
+			};
+			buildConfigurationList = 13547B9C1E55423600882164 /* Build configuration list for PBXProject "UILabel设置多种字体颜色大小" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13547B981E55423600882164;
+			productRefGroup = 13547BA21E55423600882164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13547BA01E55423600882164 /* UILabel设置多种字体颜色大小 */,
+				13547BB91E55423600882164 /* UILabel设置多种字体颜色大小Tests */,
+				13547BC41E55423600882164 /* UILabel设置多种字体颜色大小UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13547B9F1E55423600882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BB41E55423600882164 /* LaunchScreen.storyboard in Resources */,
+				13547BB11E55423600882164 /* Assets.xcassets in Resources */,
+				13547BAF1E55423600882164 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BB81E55423600882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BC31E55423600882164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13547B9D1E55423600882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BAC1E55423600882164 /* ViewController.m in Sources */,
+				13547BA91E55423600882164 /* AppDelegate.m in Sources */,
+				13547BA61E55423600882164 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BB61E55423600882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BBF1E55423600882164 /* UILabel__________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13547BC11E55423600882164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13547BCA1E55423600882164 /* UILabel__________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13547BBC1E55423600882164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13547BA01E55423600882164 /* UILabel设置多种字体颜色大小 */;
+			targetProxy = 13547BBB1E55423600882164 /* PBXContainerItemProxy */;
+		};
+		13547BC71E55423600882164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13547BA01E55423600882164 /* UILabel设置多种字体颜色大小 */;
+			targetProxy = 13547BC61E55423600882164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13547BAD1E55423600882164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13547BAE1E55423600882164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13547BB21E55423600882164 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13547BB31E55423600882164 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13547BCC1E55423600882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13547BCD1E55423600882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13547BCF1E55423600882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		13547BD01E55423600882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		13547BD21E55423600882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel设置多种字体颜色大小.app/UILabel设置多种字体颜色大小";
+			};
+			name = Debug;
+		};
+		13547BD31E55423600882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel设置多种字体颜色大小.app/UILabel设置多种字体颜色大小";
+			};
+			name = Release;
+		};
+		13547BD51E55423600882164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UILabel设置多种字体颜色大小";
+			};
+			name = Debug;
+		};
+		13547BD61E55423600882164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = PMMD8U2424;
+				INFOPLIST_FILE = "UILabel设置多种字体颜色大小UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xt.UILabel----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "UILabel设置多种字体颜色大小";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13547B9C1E55423600882164 /* Build configuration list for PBXProject "UILabel设置多种字体颜色大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547BCC1E55423600882164 /* Debug */,
+				13547BCD1E55423600882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13547BCE1E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547BCF1E55423600882164 /* Debug */,
+				13547BD01E55423600882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13547BD11E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547BD21E55423600882164 /* Debug */,
+				13547BD31E55423600882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13547BD41E55423600882164 /* Build configuration list for PBXNativeTarget "UILabel设置多种字体颜色大小UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13547BD51E55423600882164 /* Debug */,
+				13547BD61E55423600882164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13547B991E55423600882164 /* Project object */;
+}
